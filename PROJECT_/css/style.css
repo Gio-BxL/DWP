@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    max-width: 100px;
+    display: flex;
+    float: inline-start;
+    padding-left: 0px;
+    margin-left: 300px;
+}
+
+header ul {
+    display: flex;
+    float: inline-start;
+    padding-right: 400px;
+    text-align: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: flex;
+    float:inline-start;
+    font-weight: 400;
+    margin-left: 6px;
+    margin-right: 6px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+header ul li:hover {
+    background-color: rgb(255, 215, 0);
+}
+
+
+#sp {
+    text-align: left;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    padding-left: 150px;
+    margin: 10px;
+}
+
+.social {
+    margin-top: 50px;
+    align-items: flex-start;
+}
+
+#sz {
+    width: 20px;
+    height: 20px;
+}
+
+.wrapper {
+    display: flex;
+    float: inline-start;
+    padding-left: 250px;
+    margin-top: -400px;
+}
+
+.one {
+    max-width: 100%;
+}
+
+.one {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+}
+
+
+
+.content {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox .sp span{
+    font-size: 1.2em;
+    opacity: 0.5;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.name {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+.btnc {
+    display: flex;
+    float: left;
+}
+
+#btn {
+    border-radius: 4px;
+    font-size: 10px;
+    display: flex;
+    float: left;
+    background: linear-gradient(30deg, #43CBFF, #9708CC);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #ffffff;
+}
+
+.social{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+
+div .hobbies {
+    display: flex;
+    float: left;
+    margin-top: 50px;
+}
+
+div .hobbies h2 {
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+div .hobbies ul {
+    margin-top: 150px;
+    margin-right: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+div .hobbies ul li{
+    font-size: 20px;
+    display: flex;
+    float: inline-start;
+    margin-left: -300px;
+}
+
+.for {
+    height: 600px;
+    width: 100px;
+    background: linear-gradient(30deg, #43CBFF, #9708CC);
+    border-radius: 150%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 1800px;
+    border-bottom-right-radius: -2000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 900px;
+    margin-right: 0px;
+    padding-left: 40px;
+    padding-right: 650px;
+}
+
+.two {
+    margin-top: 0px;
+    padding-top: 200px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-left: 0px;
+    margin-right: -250px;
+    padding-left: 200px;
+    padding-right: 0;
+}
+
+.two img {
+   width: 200px;
+   height: 300px;
+   margin-bottom: -385px;
+}
