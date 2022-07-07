@@ -1,0 +1,184 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("./assets/back.gif");
+  background-repeat: no-repeat;
+  background-color: rgb(241, 237, 232);
+}
+.center-on-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#pr{
+  margin: 0;
+  padding: 0;
+}
+.h2pok{
+text-align: center;
+}
+.st {
+  justify-content: center;
+  font-family:'Times New Roman', Times, serif;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 500px;
+}
+
+
+p {
+  margin: 0;
+}
+.Watch {
+  text-decoration: none;
+  background-color: white;
+  border-radius: 10px;
+  border:none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.cardpr {
+  background: #fff;
+  border-radius: 10px;
+  height: 60px;
+}
+
+.card__img {
+  text-align: center;
+}
+
+.card__types {
+  display: flex;
+  justify-content: center;    
+}
+
+.card__type {
+  padding: 5px 10px;
+  margin: 10px 10px 10px 0;
+  border-radius: 5px;
+  background: cyan;
+  color: #fff;
+}
+
+.card__name {
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: 800;
+  
+}
+
+.Card__info {
+  margin-left: 10px;
+}
+
+
+.Card__data .title {
+  font-weight: 700;
+}
+
+.btnsee {
+  text-align: center;
+  font-weight: 800;
+  margin-left: 740px;
+}
+
+.divpr{
+  padding-left: 0px;
+  margin-top: 20px;
+  text-align: center;
+  display: block;
+}
+
+.button {
+  border-style: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+  background: #30a7d7;
+  color: #fff;
+  font-size: 1em;
+  display: flex;
+  float: left;
+
+}
+
+.btnse{
+  width: 10px;
+  height: 10px;
+  display: flex;
+  float: right;
+}
+
+.btnsearch {
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: #30a7d7;
+ 
+}
+
+.btn-div{
+  display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+.hom{
+  width: 120px;
+  height: 120px;
+  }
+
+  .imgst{
+    background-image: image("./assets/student.jpg");
+  }
+
+
+
+
