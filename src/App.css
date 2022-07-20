@@ -1,0 +1,207 @@
+.App {
+  text-align: center;
+  background-color: #090909;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* here is the navbar */
+.navbar{
+  margin-left: 70px;
+  margin-right: 70px;
+  border-radius: 8px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: #2e2e2e;
+  color: rgb(95, 95, 95);
+  height: 75px;
+}
+
+ul{
+  list-style: none;
+  display: inline-block;
+  padding:1px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.in{
+  position: absolute;
+  top: 15px;
+  font-size: large;
+  right: -1300px;
+
+}
+
+ul li{
+  position: relative;
+  float: left;
+  left: -340px;
+  margin-top: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.botonnav1{
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0px;
+  left: 245px;
+  border-radius: 5px;
+}
+
+.botonnav1:hover {
+  box-shadow: 0 8px 16px 0 rgb(58, 58, 58);
+}
+/* estilo sobre el navbar */
+
+
+/* estilo sobre la informacion */
+.card-info{
+  position: absolute;
+  top: 180px;
+  left: 125px;
+  color: white;
+}
+
+.container-info{
+  text-align: left;
+  margin: 20px;
+  width: 500px;
+}
+
+.text-info{
+  font-size: medium;
+  color: #5c5b5b;
+  font-family: 'Times New Roman';
+}
+
+.tit{
+  font-size: 35px;
+}
+
+.texinco{
+  font-size: large;
+  color: #ffffff;
+  font-family: 'Times New Roman';
+}
+
+.botonV{
+  width: 180px;
+  height: 45px;
+  font-weight: 16px;
+  font-size: 16px;
+  font-family: 'Times New Roman';
+  color:#ffffff;
+  background-color: #31c21e;
+  border-width: 0px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 8px 0px rgba(112, 252, 84, 0.815);
+}
+
+.botonV:hover {
+  box-shadow: 0px 0px 16px 0px rgba(112, 252, 84, 0.815);
+}
+
+.myimage{
+  width:300px;
+    height:300px;
+    border-radius:150px;
+    position: absolute;
+    top: 150px;
+    left: 770px;
+}
+
+.myimage:hover {
+  box-shadow: 0 0px 16px 0 rgb(58, 58, 58);
+}
+
+.tech{
+  top: 410px;
+  left: -55px;
+  position: relative;
+}
+
+.card-tech{
+  position: relative;
+  border-radius: 10px;
+  height: 70px;
+  width: 200px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(53, 52, 52);
+  display: inline-block;
+  margin-left: 35px;
+  margin-right: 20px;
+  left: 50px;
+}
+
+.card-tech:hover {
+  box-shadow: 0 0px 16px 0 rgb(58, 58, 58);
+}
+
+.img-tech{
+  height: 50px;
+  width: 50px;
+  margin: 12px;
+  position: relative;
+  left: -50px;
+}
+
+.text-tech{
+  position: relative;
+  top: -95px;
+  color:rgb(53, 52, 52);
+  font-size: xx-large;
+  margin-left: 55px;
+}
+
+.n1{
+  position: absolute;
+  top: 14px;
+  right: 195px;
+  font-size: large;
+}
+
+.n1-img{
+  position: absolute;
+  top: 33px;
+  right: 165px;
+}
+
+/* estilo sobre la informacion */
