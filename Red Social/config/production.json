@@ -1,4 +1,6 @@
 {
-  "mongoURI": "mongodb+srv://Gio-BxL:LzX9Hbisrkccgu5x@dwp.n1znc.mongodb.net/?retryWrites=true&w=majority"
- 
+  "mongoURI": "mongodb+srv://Gio-BxL:LzX9Hbisrkccgu5x@dwp.n1znc.mongodb.net/?retryWrites=true&w=majority",
+  "jwtSecrete": "mysecrettoken",
+  "githubclientId": "f92cd40d8abde0b9f1b6",
+  "githubSecret": "71a8c159358be52c48b1b4fa9bfe93f453eaed9c"
 }
